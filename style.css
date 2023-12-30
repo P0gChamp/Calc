@@ -1,0 +1,96 @@
+.mom {
+margin:auto;
+width: 30%;
+border: 10px outset teal;
+padding: 10px;
+text-align: center;
+margin-top: 10%;
+border-radius: 15px;
+max-width: 300px;
+}
+
+.grid {
+display:grid;
+grid-template-columns: 20% 20% 20% 20% 20%;
+background-color: lightgrey;
+padding: 20px;
+border: 5px solid black;
+}
+
+/* Pls disregard, I messed up a few things */
+/* .tiny_grid {
+} */
+
+.cell {
+background-color: grey;
+border: 6px outset grey;
+border-radius: 8px;
+padding: 10px;
+font-size: larger;
+width: 95%;
+height: 100%;
+}
+
+.cell_plus {
+background-color: grey;
+border: 6px outset grey;
+border-radius: 8px;
+padding: 10px;
+font-size: larger;
+text-align: center;
+font-size: x-large;
+font-weight: bold;
+width: 95%;
+height: 100%;
+}
+
+.cell:hover {
+background-color: darkgray;
+}
+
+.cell_plus:hover {
+background-color: darkgray;
+}
+
+
+.screen{
+grid-column-start: 1;
+grid-column-end: 6;
+}
+
+.tiny_grid_plus {
+grid-row-start: 5;
+grid-row-end: 7;
+grid-column-start: 4;
+}
+
+.C-button {
+background-color: grey;
+border:none;
+}
+
+.C-button:hover {
+background-color: lightgray;
+}
+
+.reader {
+padding: 10px;
+height:30px;
+text-align: left;
+font-size: large;
+width: 90%;
+margin-bottom: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    text-align: center;
+}
+
+.cell:active {
+    border: 6px inset grey;
+}

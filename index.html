@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>12 O'clock Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!-- Wazzaaa, pls don't look at this -->
+  </head>
+  <body>
+  
+    <div class="mom">
+<div class="grid">
+    <div class="screen"><input class="reader" type="text" id="result" readonly></div>
+    <div class="tiny_grid"><button class="cell" onclick="clearResult()">C</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="clear_recent()"></button></div>
+    <div class="tiny_grid"><button class="cell" onclick="recal-wipe_mem()"></button></div>
+    <div class="tiny_grid"><button class="cell" onclick="appendOps('(')">(</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="appendOps(')')">)</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="append('7')">7</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="append('8')">8</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="append('9')">9</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="percent('%')">%</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="square()">√</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="append('4')">4</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="append('5')">5</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="append('6')">6</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="appendOps('*')">X</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="appendOps('/')">÷</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="append('1')">1</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="append('2')">2</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="append('3')">3</button></div>
+    <div class="tiny_grid_plus"><button class="cell_plus" onclick="appendOps('+')">+</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="appendOps('-')">-</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="append('0')">0</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="appendOps('.')">.</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="toggle('')">+/-</button></div>
+    <div class="tiny_grid"><button class="cell" onclick="calc()">=</button></div>
+    </div>
+    <!-- Are you cool enough to have divs for your divs? -->
+</div>
+  </body>
+  <footer>
+    <h3 class="footer">Calculator App <br>
+    Created by: Andy</h3>
+  </footer>
+</html>
